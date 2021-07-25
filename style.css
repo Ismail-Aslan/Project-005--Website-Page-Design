@@ -127,7 +127,8 @@ nav a:hover{
     border: 0;
     padding-left: 20px;
     padding-right: 20px;
-    color: #ffffff;padding: 4px;
+    color: #ffffff;
+    padding: 4px;
         
 }
 
@@ -140,7 +141,7 @@ nav a:hover{
     text-align: center;
     padding-top: 25px;
     border-bottom: #a9508b 3px solid;
-    background: #e6e6e6;
+    background-color: #f4f4f4;
 }
 
 .bottom-article img {
@@ -168,7 +169,7 @@ nav a:hover{
     grid-gap: 20px;
     padding-top: 25px;
     border-bottom: #a9508b 3px solid;
-    background: #e6e6e6;
+    background-color: #f4f4f4;
     justify-content: center;
     min-height: 80vh;
 }
@@ -190,11 +191,36 @@ nav a:hover{
 
 
 
+/* SERVICES - MAIN SECTION */
 
-
-
-
-
+.form-element{
+    width: 80%;
+    margin: auto;
+}
+.form-element input[type="text"],
+.form-element input[type="email"],
+.form-element textarea{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.form-element input[type="submit"]{
+    width: max-content;
+    height: 38px;
+    background:  #a9508b;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+.section2 h3 {
+    margin-bottom: 20px;
+}
+.light{
+    background: #e6e6e6;
+    padding: 10px;
+    margin-bottom: 5px;
+}
 
 
 
